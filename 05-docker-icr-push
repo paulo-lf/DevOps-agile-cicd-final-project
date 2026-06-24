@@ -1,0 +1,16 @@
+docker push us.icr.io/${SN_ICR_NAMESPACE}/zntwk-tax_calculator
+Using default tag: latest
+The push refers to repository [us.icr.io/sn-labs-paulolinan/zntwk-tax_calculator]
+b36d8e4f092d: Pushed
+4500fb211912: Pushed
+d8243f0f83f0: Pushed
+964b5cc449ec: Pushed
+00827fc42567: Pushed
+0435252f756b: Pushed
+db08149a7dc5: Pushed
+7e201b3534b0: Pushed
+f5417a84ef92: Pushed
+68ed47626257: Pushed
+8a48d04eac92: Pushed
+f4f8b983b714: Pushed
+latest: digest: sha256:6ac1667692d3a5d2f57b6f22f4c449309a200590635bb7e489e8b389b6396da5 size: 2816

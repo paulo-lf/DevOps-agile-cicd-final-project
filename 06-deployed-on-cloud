@@ -1,0 +1,37 @@
+ibmcloud ce application get --name zntwk-tax-calculator
+OK
+
+Name:              zntwk-tax-calculator
+ID:                aca37785-9462-4fb5-92a4-76d5e416e1a3
+Project Name:      Code Engine - sn-labs-paulolinan
+Project ID:        6142bdb4-311f-45ef-b521-41360ee6111b
+Age:               100s
+Created:           2026-06-24T06:46:55-04:00
+URL:               https://zntwk-tax-calculator.2bhpql7fzzay.us-south.codeengine.appdomain.cloud
+Cluster Local URL: http://zntwk-tax-calculator.2bhpql7fzzay.svc.cluster.local
+
+Status Summary:    Application deployed successfully
+
+Image:             us.icr.io/sn-labs-paulolinan/zntwk-tax-calculator
+
+Resource Allocation:
+  CPU:              1
+  Ephemeral Storage: 400M
+  Memory:           4G
+
+Registry Secrets:
+  icr-secret
+
+Port:              80
+
+Revisions:
+  zntwk-tax-calculator-00001:
+    Latest:         true
+    Traffic:        100%
+    Image:          us.icr.io/sn-labs-paulolinan/zntwk-tax-calculator
+    Running Instances: 1
+
+Conditions:
+  ConfigurationsReady   true
+  Ready                 true
+  RoutesReady           true
